@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5b0205/v1
+canonical_location: https://kanripo.org/bkk/KR5b0205/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 玉籙大齋第二日午朝儀
+  identifiers:
+    alt_id:
+    - DZ0505e
+  date: '2015-08-29 00:12:33.389384'
+  source:
+    repository: kanripo
+    path: KR5b0205
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0205_000.yaml, hash: 'sha256:274e5a979bfa2fe82f7dba74d03156a35bc931d052f5ab00efb8571a6fabf1de'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0205_000.markers.yaml, hash: 'sha256:f3c1bc7147b26a2717e3b24c18d54a33e6f73f25b5e7adbd4421abe434c176e2'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0205_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1513
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:b847bc19659271bba1f141cb056a419100fba70fd23c3fb36d995057626a470d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
